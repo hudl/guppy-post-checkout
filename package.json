@@ -1,11 +1,11 @@
 {
   "name": "guppy-post-checkout",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Installs a post-checkout git-hook only, for guppy packages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "guppy post-checkout"
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/therealklanni/guppy-post-checkout",
   "dependencies": {
     "guppy-cli": "^0.4.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.thorhudl.com"
   }
 }
