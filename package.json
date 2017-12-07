@@ -1,6 +1,6 @@
 {
   "name": "guppy-post-checkout",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Installs a post-checkout git-hook only, for guppy packages",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "guppy-cli": "^0.4.0"
   },
   "publishConfig": {
-    "registry": "http://npm.thorhudl.com"
+    "registry": "http://npm-push.hudltools.com"
   }
 }
